@@ -1,0 +1,31 @@
+Editor:
+  - VSCode
+
+Languages:
+  - ReactJS
+  - Json/HTML
+  - CSS
+
+Libraries:
+  - ElectronJS
+
+Components:
+  - Backend Api
+    
+    Example coles API usage:
+    - https://www.coles.com.au/api/bff/products/search/suggestions?searchTerm=chicken
+
+    - Required Headers
+      - ocp-apim-subscription-key: eae83861d1cd4de6bb9cd8a2cd6f041e
+      - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+  
+    Example Woolies API usage:
+    - https://www.woolworths.com.au/shop/search/products?searchTerm=Chicken
+
+    Example Aldi API usage:
+
+    Example IGA API Usage:
+
+  - Webscraping component
+  - Front-end UI
+

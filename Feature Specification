@@ -1,0 +1,10 @@
+Main Features:
+    - Pull product information from; Woolies, coles, aldi, IGA.
+    - Compare prices and sales on same items.
+    - UI box onclick/hover item to compare to other stores.
+
+
+Additional Features:    
+    - Have geolocation logic for stores and user.
+    - Compare prices and sales on similar items.
+    - Send Email /OR SMS with item list and prices.
