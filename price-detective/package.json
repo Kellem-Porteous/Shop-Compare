@@ -2,9 +2,9 @@
   "name": "price-detective",
   "private": true,
   "version": "0.0.0",
-  "main": "electron/main.js",
+  "main": "electron/main.ts",
   "scripts": {
-    "dev": "concurrently \"cross-env VITE_DEV_SERVER_URL=http://localhost:5173 electronmon .\" \"vite\"",
+    "dev": "cross-env VITE_DEV_SERVER_URL=http://localhost:5173 concurrently \"ts-node -T electron/main.ts\" \"vite\"",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -21,8 +21,9 @@
     "@vitejs/plugin-react": "^4.3.3",
     "concurrently": "^9.1.0",
     "cross-env": "^7.0.3",
-    "electron": "^33.2.0",
-    "electronmon": "^1.0.0",
+    "vite-plugin-electron": "^0.1.0",
+    "ts-node": "^10.0.0",
+    "@types/node": "^20.0.0",
     "eslint": "^9.13.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
